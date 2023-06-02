@@ -32,7 +32,7 @@ export const App = () => {
  
   useEffect(() => {
      window.localStorage.setItem('contactsLocalStorage', JSON.stringify(contacts));
-    }, []);
+    }, [contacts]);
 
   const normalizedFilter = filter.toLowerCase();
     
