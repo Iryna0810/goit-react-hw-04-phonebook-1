@@ -7,4 +7,5 @@ export const Title = ({ title }) => (
   </section>
 );
 
+
 Title.propTypes = { title: PropTypes.string.isRequired, };
